@@ -10,10 +10,6 @@
 <li>Css</li>
 <li>Responsive design</li>
 
-### 🌐 `Deploy`
-
-
-
 ### 🎥 `Screen`
 
 ![](restaurant.gif)# Restaurant-Website-React-Project
