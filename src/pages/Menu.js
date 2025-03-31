@@ -6,10 +6,10 @@ function Menu() {
     <div className='menu'>
         <h1 className='menuTitle'>Our Menu</h1>
         <div className='menuList'>
-            {MenuList.map((menuItem,key) => {
+            {MenuList.map((menuItem, index) => {
                 return( 
-                  <div className='menuItem'> 
-                    <div> <img src={menuItem.image}/> </div>
+                  <div className='menuItem' key={index}> 
+                    <div> <img src={menuItem.image} alt={menuItem.name}/> </div>
                     <h3>{menuItem.name}</h3>
                     <p>{menuItem.price} TL</p>
                   </div> 
